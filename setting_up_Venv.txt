@@ -7,3 +7,6 @@ restart terminal
 pip install fastapi[all]
 
 pip freeze
+
+uvicorn main:app
+uvicorn main:app --reload
